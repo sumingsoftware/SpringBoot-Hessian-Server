@@ -12,7 +12,7 @@ public class HelloController {
     private HelloWorldService helloWorldService;
 
     @RequestMapping("/hello")
-    public String test() {
+    public String test1() {
         return helloWorldService.sayHello("Spring boot with Hessian.");
     }
 }
